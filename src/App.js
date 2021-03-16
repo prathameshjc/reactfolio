@@ -6,7 +6,7 @@ function App() {
   return (
     <div >
       <Mynavbar/>
-      Hello Portfolip
+      Hello Portfolio
     </div>
   );
 }

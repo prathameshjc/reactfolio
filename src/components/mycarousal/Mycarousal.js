@@ -1,10 +1,10 @@
-import React from 'react'
-import './mycarousal.css'
+import React from 'react';
+import './mycarousal.css';
 
 const Mycarousal = () => {
-    return (
-        <div>
-            
+    return ( 
+        <div >
+
         </div>
     )
 }

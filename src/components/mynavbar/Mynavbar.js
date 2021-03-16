@@ -1,7 +1,8 @@
-import React from 'react'
-import { Navbar, Nav} from 'react-bootstrap'
+import React from 'react';
+import { Navbar, Nav} from 'react-bootstrap';
 import Logo from "../../assets/icons/logow.webp";
-import './mynavbar.css'
+import './mynavbar.css';
+
 export const Mynavbar = () => {
     return (
         <div>
