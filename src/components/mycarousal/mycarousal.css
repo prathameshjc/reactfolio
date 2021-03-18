@@ -1,1 +1,5 @@
 /* my carousal CSS */
+.custom-img {
+    height: 89vh;
+    object-fit: cover;
+  }

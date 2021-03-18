@@ -1,12 +1,15 @@
 // import logo from './logo.svg';
 import './App.css';
-import { Mynavbar } from "./components/mynavbar/Mynavbar"
+import Mycarousal from './components/mycarousal/Mycarousal';
+import { Mynavbar } from "./components/mynavbar/Mynavbar";
+import TitleMessage from './components/titlemessage/TitleMessage';
 
 function App() {
   return (
     <div >
-      <Mynavbar/>
-      Hello Portfolio
+      <Mynavbar />
+      <Mycarousal />
+      <TitleMessage />
     </div>
   );
 }
