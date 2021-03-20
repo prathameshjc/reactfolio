@@ -7,29 +7,38 @@ import About from './pages/about/About';
 import Fade from 'react-reveal/Fade';
 import { Parallax } from 'react-parallax';
 import Container from 'react-bootstrap/Container'
-
+import bgimg from './assets/img/parallex/background.webp'
+import { skills } from './pages/skills/skills.data';
+import Skills from './pages/skills/Skills';
 function App() {
   return (
-    <div >
+    <div className="App" style={{ position: "relative" }}>
       <Mynavbar />
       <Mycarousal />
       <TitleMessage />
+      {/* About me section */}
       <div>
-        <Parallax
-          blur={{ min: -30, max: 30 }}
-          bgImage={require("./assets/img/parallex/background.webp")}
+        <Parallax blur={{ min: -15, max: 15 }}
+          bgImage={bgimg}
           bgImageAlt=""
-          strength={-200}
-        >
+          strength={-200}>
           <div>
-            <Container className="container-box rounded">
-              <Fade duration={500}>
+            <Container className="container rounded">
+              <Fade duration={2500}>
                 <About />
               </Fade>
             </Container>
           </div>
         </Parallax>
       </div>
+      <hr />
+      {/* skills section */}
+
+        <Container >
+          <Fade duration={2500}>
+            <Skills />
+          </Fade>
+        </Container>
     </div>
   );
 }
